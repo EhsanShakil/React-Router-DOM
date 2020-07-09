@@ -5,6 +5,7 @@ import Home from "./Components/Screens/Home";
 import About from "./Components/Screens/About";
 import Services from "./Components/Screens/Services";
 import Contact from "./Components/Screens/Contact";
+import NotFound from "./Components/Screens/NotFound";
 import Header from "./Components/Header/Header";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/services" component={Services} />
         <Route path="/contact" component={Contact} />
+        <Route component={NotFound} />
       </Switch>
     </BrowserRouter>
   );
