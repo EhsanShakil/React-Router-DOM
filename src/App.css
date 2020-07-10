@@ -3,3 +3,13 @@
   flex-direction: row;
   justify-content: space-evenly;
 }
+.screen {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  font-size: 40px;
+  font-weight: bold;
+}
